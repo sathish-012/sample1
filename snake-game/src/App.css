@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+.snake {
+  background-color: green;
+}
+
+.food {
+  background-color: red;
+}
